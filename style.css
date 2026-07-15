@@ -1,8 +1,12 @@
+@font-face{
+    font-family: tallfont;
+    src: url(Victory\ Striker\ Sans\ Demo.otf);
+}
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
+    /* font-family: "Roboto", sans-serif; */
 }
 .container{
     height: 100vh;
@@ -106,38 +110,37 @@
     color: #C8B8DB;
     font-size: 22px;
 }
-.mid{
-    /* margin: 100px auto; */
-    width: 100%;
+.middle-part{
     height: 90vh;
-    /* border: 2px solid red; */
-    display: flex;
-    overflow-x: auto;
+    width: 100%;
+    border: 4px solid red;
+    position: relative;
+}
+#watermark{
+    font-size: 200px;
+    margin: 70px 80px;
+    opacity: 0.1;
+    z-index: 99;
+    color: grey;
+    font-family: tallfont;
     
 }
-.group{
+.barcode{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0.0001em;
-    animation: spin 59s infinite linear;
-    padding-right: 1em;
+    gap: 6px;
 }
-.card img{
-    flex: 0 0 5em;
-    height: 18em;
-    padding: 1em .001em;
-    gap: 0.01em;
-    background: transparent;
-    font-size: 3em;
-    border-radius: .3em;
-    text-align: center;
-    align-content: center;
+.barcode span{
+    width: 18px;
+    height: 45px;
+    background: none;
+    font-weight: 700;
+    color: black;
+    font-family: sans-serif;
 }
-.mid::-webkit-scrollbar{
-    display: none;
-}
-@keyframes spin{
-    from {translate: 0;}
-    to {translate:-100%;}
+.barcode span:nth-child(5),
+.barcode span:nth-child(6),
+.barcode span:nth-child(7),
+.barcode span:nth-child(8){
+    width: 5px;
 }
