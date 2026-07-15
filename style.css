@@ -128,19 +128,8 @@
 .barcode{
     display: flex;
     align-items: center;
-    gap: 6px;
-}
-.barcode span{
-    width: 18px;
-    height: 45px;
-    background: none;
-    font-weight: 700;
+    gap: 1px;
     color: black;
-    font-family: sans-serif;
-}
-.barcode span:nth-child(5),
-.barcode span:nth-child(6),
-.barcode span:nth-child(7),
-.barcode span:nth-child(8){
-    width: 5px;
+    font-size: 30px;
+    opacity: none;
 }
