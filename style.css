@@ -157,4 +157,63 @@
 .product-listing{
     height: 100vh;
     width: 100%;
+    /* border: 2px solid red; */
+    margin-top: -140px;
 }
+.product-listing .lining{
+    border: 0.1px solid black;
+    height: 1px;
+    width: 90%;
+    margin-left: 70px;
+}
+.lists{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 18px;
+}
+.lists .one li {
+    /* text-decoration: none; */
+    list-style: none;
+    
+}
+.lists .one li a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 30px;
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 18px;
+}
+.lists .two{
+    display: flex;
+     justify-content: space-between;
+     margin-left: 370px;
+}
+.lists .two li{
+    text-decoration: none;
+    list-style: none;
+   margin-left: 22px;
+   font-family: "Ubuntu", sans-serif;
+    color: black;
+    font-size: 15px;
+}
+.lists .two li a{
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    color: grey;
+    
+}
+.lists .two li a span{
+    color: black;
+    font-weight: 600;
+}
+.product-listing .linings{
+    border: 0.1px solid black;
+    height: 1px;
+    width: 90%;
+    margin-left: 70px;
+    margin-top: 18px;
+}
+
