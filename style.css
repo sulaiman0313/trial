@@ -113,7 +113,7 @@
 .middle-part{
     height: 90vh;
     width: 100%;
-    border: 4px solid red;
+    /* border: 4px solid red; */
     position: relative;
 }
 #watermark{
@@ -125,11 +125,36 @@
     font-family: tallfont;
     
 }
-.barcode{
-    display: flex;
+.text-portion{
+    margin-top: -600px;
+    /* border: 2px solid red; */
+    justify-content: center;
     align-items: center;
-    gap: 1px;
-    color: black;
-    font-size: 30px;
-    opacity: none;
+    margin-left: 500px;
+}
+.barcode{
+    display:flex;
+    gap:0.8px;
+    align-items:center;
+}
+
+.barcode span{
+    width:var(--w);
+    height:15px;
+    background:#000;
+}
+.hero-content{
+    font-family: tallfont;
+    margin-left: 0px;
+    font-size: 120px;
+}
+.para{
+      font-family: "Ubuntu", sans-serif;
+      font-size: 12px;
+      margin-left: 400px;
+      font-weight: 800;
+}
+.product-listing{
+    height: 100vh;
+    width: 100%;
 }
