@@ -26,12 +26,13 @@
     list-style: none;
     text-decoration: none;
 }
-.logo li a{
-    color: #E43F6F;
-    list-style: none;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    
+.logo li img{
+    margin-top: -10px;
+    height: 40px;
+    width: 40px;
+    /* border-radius: 50%; */
+    mix-blend-mode: lighten; 
+    margin-left: 30px;   
 }
 .I{
     color: #ffffff;
@@ -47,6 +48,7 @@
     list-style: none;
     color: #C8B8DB;
     margin: 10px;
+    font-family: "Fredoka", sans-serif;
 }
 .functions{
     /* border: 1px solid red; */
@@ -121,7 +123,7 @@
     margin: 70px 80px;
     opacity: 0.1;
     z-index: 99;
-    color: grey;
+    color: gray;
     font-family: tallfont;
     
 }
@@ -219,7 +221,7 @@
 #products{
     width: 90%;
     margin: 40px auto;
-
+    margin-top: -10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -228,10 +230,13 @@
 }
 .item{
 width: 300px;
+margin-top: -10px;
 }
 .item img{
   width: 100%;
-    display: block;
+  height: 400px;
+    /* display: block; */
+    margin-top: 50px;
     
 }
 .item h3{
@@ -241,6 +246,8 @@ width: 300px;
     font-family: "Share Tech", sans-serif;
     margin: 12px;
     font-size: 12px;
+    /* margin-top: px; */
+    /* border: 1px solid #000000; */
 }
 .item p{ 
     color: black;
@@ -311,7 +318,7 @@ width: 300px;
 }
 .banner{
     /* border: 1px solid red; */
-    margin-top: 100px;
+    margin-top: 130px;
     height: 80vh;
     width: 100%;
     justify-content: center;
