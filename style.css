@@ -309,4 +309,17 @@ width: 300px;
 .button:active {
   border: 1px solid #2e8644;
 }
-
+.banner{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.min-banner img{
+    margin-left: 5px;
+    width: 99%;
+    height: 80vh;
+    border-radius: 10px;
+}
