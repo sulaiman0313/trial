@@ -333,5 +333,130 @@ margin-top: -10px;
 .about{
     height: 60vh;
     width: 100%;
-    background: #C8B8DB;
+    background: #3a1d58;
+}
+.main-container{
+    display: flex;
+    border: 2px solid red;
+    height: 60vh;
+    width: 100%;
+}
+.three img{
+    width: 180px;
+    height: 150px;
+    border-radius: 24px;
+    mix-blend-mode: lighten; 
+    margin: 90px;
+
+}
+/* From Uiverse.io by vinodjangid07 */ 
+.discountForm {
+  width: 250px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px;
+  gap: 20px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.082);
+}
+
+.DiscountHeading {
+  font-size: 1.5em;
+  color: rgb(15, 15, 15);
+  font-weight: 700;
+}
+
+.DiscountSubheading {
+  font-size: 0.8em;
+  color: black;
+  text-align: center;
+}
+
+.inputContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#email-address {
+  height: 30px;
+  width: 100%;
+  border: 1px solid rgb(228, 228, 228);
+  background-color: white;
+  padding: 0px 10px;
+  outline: none;
+  text-align: center;
+}
+
+.submitButton {
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: rgb(15, 15, 15);
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: rgb(36, 36, 36);
+}
+
+.exitBtn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.171);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  border: none;
+  color: black;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+.discountForm{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.line{
+    width: 1px;
+    height: 340px;
+    background-color: rgb(250, 237, 237);
+    margin-top: 80px;
+    margin-left: 70px;
+}
+.two{
+    margin-left: 100px;
+    margin-top: 58px;
+}
+.two li a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    /* margin-top: 17px; */
+}
+.two li{
+    text-decoration: none;
+    list-style: none;
+    margin-top: 30px;
+}
+.two li a span{
+    color: #606C38;
+    font-weight: 600;
+    font-size: 22px;
+}
+.two hr{
+    width: 40px;
+    margin-top: 10px;
+    color: #000000;
+    
 }
